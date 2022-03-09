@@ -86,7 +86,7 @@ function contactBoxOpen(){
 	$('.contact .btn-contact-close').fadeIn('fast');
 	$('.contact').animate({
 		'bottom': 0
-	}, 300);
+	}, 100);
 }
 function contactBoxClose(){
 	$('.page-dim').fadeOut('fast');
@@ -110,7 +110,7 @@ function inNavContactBoxOpen(){
 function mSideBoxOpen(){
 	$('#header .menu').animate({
 		'left': 0
-	}, 300);
+	}, 100);
 	$('.page-dim').fadeIn('fast');
 }
 function mSideBoxClose(){
