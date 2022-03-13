@@ -56,6 +56,7 @@
 .page-btns a.btn-gray {color:#fff; background:#808080;}
 .page-btns a.btn-blue {color:#fff; background:#222;}
 
+
 /* page */
 .main,
 .main-bg {height:100%;}
@@ -115,6 +116,7 @@
 .about .location-info span {margin:0 7px;} */
 
 .project .inner {max-width:1300px;}
+.project .title {margin-bottom:30px;}
 .project .category {margin-top:35px; text-align:center;}
 .project .category a {display:inline-block; margin:0 22px; line-height:2; color:#a6a6a6; font-size:16px; font-family:'Noto Serif KR', serif;}
 .project .category a.active {color:#fb6d0c;}
@@ -358,4 +360,34 @@
 	.salon .salon-info {margin-top:15px; width:94%;}
 	.salon .salon-info .info-img img {width:80%;}
 	.salon .salon-info p {line-height:1.4; font-size:13px;}
+}
+
+/* 더보기버튼 css*/
+
+.more-btn {
+	font-weight:bold;
+	text-decoration:none;
+	font-family:굴림체;
+	text-indent:0px;
+	line-height:32px;
+	-moz-border-radius:22px;
+	-webkit-border-radius:22px;
+	border-radius:22px;
+	text-align:center;
+	vertical-align:middle;
+	display:inline-block;
+	font-size:20px;
+	color:#ffffff;
+  background:#fc6c0c;
+	width:98px;
+	height:32px;
+	padding:11px;
+	border-color:#dbddde;
+	border-width:0px;
+	border-style:solid;
+}
+
+.more-btn:active {
+	position:relative;
+	top:3px
 }
