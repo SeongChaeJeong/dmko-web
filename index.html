@@ -182,7 +182,7 @@ const fieldReq = [1, 1, 1, 1, 1, 1, 1, 1, 1, 0];
 function addContactUs(formData) {
 
 	$.ajax({
-		url: "add_contactus_ajax.php",
+		url: "php/request_contactus.php",
 		enctype: 'multipart/form-data',
 		type: "POST",
 		data: formData,
@@ -191,16 +191,17 @@ function addContactUs(formData) {
 		cache: false,
 		timeout: 600000,
 		success: function(data){
-		
-			var json = JSON.parse(data);
-			
-			if(json !=null && json.hasOwnProperty("error")) {
-				alert("ERROR: " + json["error"]);
-			} else if(json !=null) {
-				ajaxComplete(json);
-			} else {
-				alert("알 수 없는 응답입니다.");
-			}
+			alert(data);
+			ajaxComplete(data);
+			// var json = JSON.parse(data);
+
+			// if(json !=null && json.hasOwnProperty("error")) {
+			// 	alert("ERROR: " + json["error"]);
+			// } else if(json !=null) {
+			// 	ajaxComplete(json);
+			// } else {
+			// 	alert("알 수 없는 응답입니다.");
+			// }
 		},
 		error: function (request, status, error) {
 			alert("ERROR: "+request.responseText);
@@ -230,8 +231,9 @@ function getFormValues() {
 // 	newForm.appendChild($("#concept_pno")[0].cloneNode(true));
 // 	newForm.appendChild($("#floorplan_pno")[0].cloneNode(true));
 	
-	newForm.append('concept_pno', $("#concept_pno")[0], $("#concept_pno")[0].name);
-	newForm.append('floorplan_pno', $("#floorplan_pno")[0], $("#floorplan_pno")[0].name);
+
+	// newForm.append('concept_pno', $("#concept_pno")[0], $("#concept_pno")[0].name);
+	// newForm.append('floorplan_pno', $("#floorplan_pno")[0], $("#floorplan_pno")[0].name);
 
 	var data = new FormData(newForm);
 	
