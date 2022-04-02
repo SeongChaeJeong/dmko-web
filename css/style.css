@@ -184,6 +184,7 @@
 .process .list li dl dt,
 .process .list li dl dd {display:block;}
 .process .list li dl dt {padding-left:94px; width:300px; height:68px; line-height:68px; color:#222; font-size:20px; font-weight:600; box-sizing:border-box;}
+.second-process {padding-left:94px; width:300px; height:68px; line-height:68px; color:#222; font-size:20px; font-weight:600; box-sizing:border-box;}
 .process .list li dl dd {width:calc(100% - 305px);}
 .process .list li dl dd p {line-height:1.8; color:#a4a4a4; font-size:15px;}
 .process .list li:nth-child(1) {transition-delay:.1s;}
