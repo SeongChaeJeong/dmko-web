@@ -31,8 +31,8 @@
 .contact .btn-toggle {position:absolute; left:50%; top:-45px; margin-left:-141px; width:250px; height:45px; line-height:45px; letter-spacing:1px; color:#fff; font-size:13px; font-weight:600; text-align:center; background:#fb6d0c;}
 .contact .btn-toggle:hover {text-decoration:underline;}
 .contact .btn-contact-close {display:none; position:absolute; right:10px; top:-52px; width:50px; height:50px; background:url('../images/btn_gnb_close.png') no-repeat center; background-size:28px;}
-.contact .box {display:flex; margin:0 auto; max-width:1100px; height:100%; background:#fff; display:-ms-flex;}
-.contact .box .visual {width:41%; background:url('../images/img_contact_visual.jpg') no-repeat center; background-size:cover;} 
+.contact .box {display:flex; margin:0 auto; max-width:1500px; height:100%; background:#fff; display:-ms-flex;}
+.contact .box .visual {width:100%; background:url('../images/contact.jpg') no-repeat center; background-size:cover;} 
 .contact .box .form-box {padding:60px 66px; width:59%; box-sizing:border-box; overflow-y:auto;}
 .contact .box .form-box .alert {margin:6px 0 20px; color:#fb6d0c; font-size:13px;}
 .contact .box .form-box .row {display:flex; justify-content:space-between; position:relative; display:-ms-flex; -ms-flex-pack:justify;}
