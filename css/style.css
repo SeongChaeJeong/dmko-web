@@ -18,6 +18,15 @@
 #header .gnb ul li a {line-height:33px; color:#222; font-size:16px; font-weight:600; font-family:'Crimson Text', serif; transition:all .1s;}
 #header .gnb ul li a:hover,
 #header .gnb ul li.active a {color:#fb6d0c;}
+
+#header .gnb-main {margin-right:60px;}
+#header .gnb-main ul {display:flex; display:-ms-flex;}
+#header .gnb-main ul li {margin-left:50px;}
+#header .gnb-main ul li:first-child {margin-left:0;}
+#header .gnb-main ul li a {line-height:33px; color:rgb(255, 253, 253); font-size:16px; font-weight:600; font-family:'Crimson Text', serif; transition:all .1s;}
+#header .gnb-main ul li a:hover,
+#header .gnb-main ul li.active a {color:#fb6d0c;}
+
 #header .btn-instagram {margin-left:5px;}
 #header .btn-salon {width:130px; height:33px; background:url('../images/img_header_hair_salon.png') no-repeat center; transition:all .1s;}
 #header .btn-salon:hover,
