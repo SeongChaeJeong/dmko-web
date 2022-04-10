@@ -204,13 +204,13 @@
 .process .list li:nth-child(6) {transition-delay:1.1s;}
 .process .list li:nth-child(7) {transition-delay:1.3s;}
 .process .list li dl dt {background-position:left center; background-repeat:no-repeat;}
-.process .list li:nth-child(1) dl dt {background-image:url('../images/img_process01.gif');}
-.process .list li:nth-child(2) dl dt {background-image:url('../images/img_process02.gif');}
-.process .list li:nth-child(3) dl dt {background-image:url('../images/img_process03.gif');}
-.process .list li:nth-child(4) dl dt {background-image:url('../images/img_process04.gif');}
-.process .list li:nth-child(5) dl dt {background-image:url('../images/img_process05.gif');}
-.process .list li:nth-child(6) dl dt {background-image:url('../images/img_process06.gif');}
-.process .list li:nth-child(7) dl dt {background-image:url('../images/img_process07.gif');}
+.process .list li:nth-child(1) dl dt {background-image:url('../images/img_process01.png');}
+.process .list li:nth-child(2) dl dt {background-image:url('../images/img_process02.png');}
+.process .list li:nth-child(3) dl dt {background-image:url('../images/img_process03.png');}
+.process .list li:nth-child(4) dl dt {background-image:url('../images/img_process04.png');}
+.process .list li:nth-child(5) dl dt {background-image:url('../images/img_process05.png');}
+.process .list li:nth-child(6) dl dt {background-image:url('../images/img_process06.png');}
+.process .list li:nth-child(7) dl dt {background-image:url('../images/img_process07.png');}
 .process .list li.many dl dd p {line-height:1.3;}
 
 
