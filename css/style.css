@@ -17,7 +17,7 @@
 #header .gnb ul li:first-child {margin-left:0;}
 #header .gnb ul li a {line-height:33px; color:#222; font-size:16px; font-weight:600; font-family:'Crimson Text', serif; transition:all .1s;}
 #header .gnb ul li a:hover,
-#header .gnb ul li.active a {color:#fb6d0c;}
+#header .gnb ul li.active a {color:#35baf6;}
 
 #header .gnb-main {margin-right:60px;}
 #header .gnb-main ul {display:flex; display:-ms-flex;}
@@ -25,7 +25,7 @@
 #header .gnb-main ul li:first-child {margin-left:0;}
 #header .gnb-main ul li a {line-height:33px; color:rgb(255, 253, 253); font-size:16px; font-weight:600; font-family:'Crimson Text', serif; transition:all .1s;}
 #header .gnb-main ul li a:hover,
-#header .gnb-main ul li.active a {color:#fb6d0c;}
+#header .gnb-main ul li.active a {color:#35baf6;}
 
 #header .btn-instagram {margin-left:5px;}
 #header .btn-salon {width:130px; height:33px; background:url('../images/img_header_hair_salon.png') no-repeat center; transition:all .1s;}
@@ -35,15 +35,15 @@
 #header .inner,
 .contact .inner {position:relative; margin:0 auto; padding:40px 0; width:100%; max-width:1504px; height:100%; box-sizing:border-box;}
 #header .inner {display:flex; justify-content:space-between; padding:0 10px;}
-.contact {position:fixed; left:0; bottom:-73.3%; z-index:1000; width:100%; height:73.5%; background:#fb6d0c; transition:all .15s;}
+.contact {position:fixed; left:0; bottom:-73.3%; z-index:1000; width:100%; height:73.5%; background:#35baf6; transition:all .15s;}
 .contact .form-box {height:100%; background:#fff;}
-.contact .btn-toggle {position:absolute; left:50%; top:-45px; margin-left:-141px; width:250px; height:45px; line-height:45px; letter-spacing:1px; color:#fff; font-size:13px; font-weight:600; text-align:center; background:#fb6d0c;}
+.contact .btn-toggle {position:absolute; left:50%; top:-45px; margin-left:-141px; width:250px; height:45px; line-height:45px; letter-spacing:1px; color:#fff; font-size:13px; font-weight:600; text-align:center; background:#35baf6;}
 .contact .btn-toggle:hover {text-decoration:underline;}
 .contact .btn-contact-close {display:none; position:absolute; right:10px; top:-52px; width:50px; height:50px; background:url('../images/btn_gnb_close.png') no-repeat center; background-size:28px;}
 .contact .box {display:flex; margin:0 auto; max-width:1500px; height:100%; background:#fff; display:-ms-flex;}
 .contact .box .visual {width:100%; background:url('../images/contact.jpg') no-repeat center; background-size:cover;} 
 .contact .box .form-box {padding:60px 66px; width:59%; box-sizing:border-box; overflow-y:auto;}
-.contact .box .form-box .alert {margin:6px 0 20px; color:#fb6d0c; font-size:13px;}
+.contact .box .form-box .alert {margin:6px 0 20px; color:#35baf6; font-size:13px;}
 .contact .box .form-box .row {display:flex; justify-content:space-between; position:relative; display:-ms-flex; -ms-flex-pack:justify;}
 .contact .box .form-box .row + .row {margin-top:20px;}
 .contact .box .form-box .row input[type="text"] {padding:0 5px; width:45%; height:38px; color:#444; font-size:15px; border:0; border-bottom:1px solid #c8c8c8;}
@@ -71,7 +71,7 @@
 .main-bg {height:100%;}
 .main-bg li {height:100%; background-size:cover; background-repeat:no-repeat; background-position:center center;}
 .main-bg .swiper-pagination-bullet {width:8px; height:8px; opacity:1; transition:all .2s;}
-.main-bg .swiper-pagination-bullet.swiper-pagination-bullet-active {height:18px; background:#fc6c0c; border-radius:10px;}
+.main-bg .swiper-pagination-bullet.swiper-pagination-bullet-active {height:18px; background:#35baf6; border-radius:10px;}
 
 #container .inner {margin:0 auto; padding:140px 0 160px;}
 
@@ -128,7 +128,7 @@
 .project .title {margin-bottom:30px;}
 .project .category {margin-top:35px; text-align:center;}
 .project .category a {display:inline-block; margin:0 22px; line-height:2; color:#a6a6a6; font-size:16px; font-family:'Noto Serif KR', serif;}
-.project .category a.active {color:#fb6d0c;}
+.project .category a.active {color:#35baf6;}
 .project .list ul {display:flex; justify-content:space-between; flex-direction:row; flex-wrap:wrap; display:-ms-flex; -ms-flex-pack:justify; -ms-flex-direction:row; -ms-flex-wrap:wrap;}
 .project .list li.c-motion {position:relative; top:-30px; opacity:0; transition:all .5s;}
 .project .list li.c-motion.active {top:0; opacity:1;}
@@ -267,7 +267,7 @@
 	#header .menu .gnb ul {display:block;}
 	#header .menu .gnb ul li {margin:0; margin-bottom:24px;}
 	#header .menu .gnb ul li a {display:block; color:#fff; font-size:14px; text-align:center;}
-	#header .btn-contact {margin:75px auto 0; width:46%; height:32px; line-height:32px; letter-spacing:2px; color:#fb6d0c; font-size:13px; font-weight:600; text-align:center; border:2px solid #fb6d0c;}
+	#header .btn-contact {margin:75px auto 0; width:46%; height:32px; line-height:32px; letter-spacing:2px; color:#35baf6; font-size:13px; font-weight:600; text-align:center; border:2px solid #35baf6;}
 	#header .etc {position:absolute; left:0; bottom:30px; width:100%; font-size:0; text-align:center;}
 	#header .etc a {display:inline-block; margin:0 15px; padding-bottom:4px; border-bottom:1px solid #fff; color:#fff; font-size:12px; font-family:'Crimson Text', serif;}
 
@@ -388,7 +388,7 @@
 	display:inline-block;
 	font-size:20px;
 	color:#ffffff;
-  background:#fc6c0c;
+  background:#35baf6;
 	width:98px;
 	height:32px;
 	padding:11px;
